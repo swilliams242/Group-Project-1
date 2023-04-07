@@ -1,101 +1,82 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Random Activity Generator</title>
-	<style>
-		body {
-			background-color: cream;
-			color: #444444;
-			font-family: Arial, sans-serif;
-			font-size: 16px;
-			line-height: 1.5;
-			margin: 0;
-			padding: 0;
-		}
-
-		h1 {
-			font-size: 36px;
-			font-weight: bold;
-			margin: 0 0 20px;
-			text-align: center;
-			text-transform: uppercase;
-		}
-
-		p {
-			margin: 0 0 20px;
-			text-align: center;
-		}
-
-		label {
-			display: block;
-			margin-bottom: 10px;
-			text-align: center;
-			font-weight: bold;
-			text-transform: uppercase;
-		}
-
-		input[type="text"], input[type="submit"] {
-			background-color: #f2f2f2;
-			border: none;
-			border-radius: 5px;
-			box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
-			display: block;
-			font-size: 16px;
-			margin-bottom: 20px;
-			padding: 10px;
-			text-align: center;
-			width: 100%;
-		}
-
-		/* Style for the button */
-		.button {
-			background-color: #4CAF50;
-			border: none;
-			color: white;
-			padding: 15px 32px;
-			text-align: center;
-			text-decoration: none;
-			display: inline-block;
-			font-size: 16px;
-			margin: 4px 2px;
-			cursor: pointer;
-			border-radius: 10px;
-			text-transform: uppercase;
-			letter-spacing: 2px;
-		}
-
-		/* Style for the container */
-		.container {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			justify-content: center;
-			height: 100vh;
-			background-color: cream;
-		}
-	</style>
+    <title>Random Activity Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer type="text/javascript" src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">    
 </head>
+
 <body>
-	<!-- Container -->
-	<div class="container">
-		<!-- Page header -->
-		<h1>Random Activity Generator</h1>
+    <!-- Container -->
+    <div id="headerDiv">
+        <!-- Page header -->
+        <h1>Random Activity Generator</h1>
 
-		<!-- Text paragraph -->
-		<p>Having trouble coming up with something to do today?</p>
+        <!-- Text paragraph -->
+        <p>Having trouble coming up with something to do today?</p>
+    </div>
+        <!-- Button -->
+        <button id="button">I'M BORED</button>
 
-		<!-- Button -->
-		<button class="button">I'M BORED</button>
+    <div id="imageDiv">
+        <!-- Image -->
+        <img id="activity-image" src="https://themindfool.com/wp-content/uploads/2019/11/What-should-I-do-today-1600x900.jpg" alt="Random image" />
+        <div id="detailsDiv" hidden>
+        <h2 id="activity-detail-name" class="name">Activity</h2>
+        <h3 id="activity-detail-type" class="type">Type</h3>
+        <h4 id="activity-detail-participants" class="participants">Participants</h4>  
+        </div>
+    </div>
 
-		<!-- Image -->
-		<img src="https://source.unsplash.com/random/400x300" alt="Random image">
 
-		<!-- Form -->
-		<form id ="addYourOwnActivityForm">
-			<label for="activity">What do you feel like doing today?</label>
-			<input type="text" id="activity" name="activity" placeholder="Enter an activity...">
-			<input type="submit" value="Generate">
-		</form>
-	</div>
+        <!-- Form -->
+        <div class="container">
+            <form id ="activity-form" form class="add-activity-form">
+            <input 
+                type="submit"
+                name="submit"
+                value="Add Your Own Activity"
+                class="submit"
+            />
+            <input 
+                type="text" 
+                id="activityInput" 
+                name="activity"
+                value="" 
+                placeholder="Enter an Activity..."
+            />
+            <br />
+            <input 
+                type="text" 
+                id="typeInput" 
+                name="type"
+                value="" 
+                placeholder="Enter the Activity Type..."
+            />
+            <br />
+            <input 
+                type="text" 
+                id="participantsInput" 
+                name="participants" 
+                value=""
+                placeholder="Enter the Number of Participants..."
+            />
+            <br />
+            <input 
+                type="text" 
+                id="imageInput" 
+                name="image" 
+                value=""
+                placeholder="Enter an Image URL..."
+            />
+            </form>
+        </div>
+    
 </body>
 </html>
+
+<!-- hidden="until-mouseover" -->

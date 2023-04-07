@@ -1,204 +1,172 @@
-// http://www.boredapi.com/api/activity/
-// THIS IS OUR HARDCODED VERSION OF BORED API//
-db.json
-
-"activities" [{
 {
-  "activity": "Learn how to make an Alexa skill",
-  "type": "education",
-  "participants": 1,
-  "price": 0,
-  "link": "https://developer.amazon.com/en-US/docs/alexa/custom-skills/steps-to-build-a-custom-skill.html",
-  "key": "1592381",
-  "accessibility": 0.1
-  },
-{
-  "activity": "Do yoga",
-  "type": "recreational",
-  "participants": 1,
-  "price": 0,
-  "link": "",
-  "key": "4688012",
-  "accessibility": 0.9
-  },
-{
-  "activity": "Plan a vacation you've always wanted to take",
-  "type": "relaxation",
-  "participants": 1,
-  "price": 0,
-  "link": "",
-  "key": "7265395",
-  "accessibility": 0.05
-  },
-{
-  "activity": "Visit a nearby museum",
-  "type": "recreational",
-  "participants": 1,
-  "price": 0.2,
-  "link": "",
-  "key": "5490351",
-  "accessibility": 0.7
-  },
-{
-  "activity": "Pot some plants and put them around your house",
-  "type": "relaxation",
-  "participants": 1,
-  "price": 0.4,
-  "link": "",
-  "key": "6613330",
-  "accessibility": 0.3
-  },
-{
-  "activity": "Take your dog on a walk",
-  "type": "relaxation",
-  "participants": 1,
-  "price": 0,
-  "link": "",
-  "key": "9318514",
-  "accessibility": 0.2
-  },
-{
-  "activity": "Start a daily journal",
-  "type": "relaxation",
-  "participants": 1,
-  "price": 0,
-  "link": "",
-  "key": "8779876",
-  "accessibility": 0
-  },
-{
-  "activity": "Learn how to write in shorthand",
-  "type": "education",
-  "participants": 1,
-  "price": 0,
-  "link": "",
-  "key": "6778219",
-  "accessibility": 0.1
-  },
-{
-  "activity": "Do a jigsaw puzzle",
-  "type": "recreational",
-  "participants": 1,
-  "price": 0.1,
-  "link": "https://en.wikipedia.org/wiki/Jigsaw_puzzle",
-  "key": "8550768",
-  "accessibility": 1
-  },
-{
-  "activity": "Learn how the internet works",
-  "type": "education",
-  "participants": 1,
-  "price": 0,
-  "link": "",
-  "key": "9414706",
-  "accessibility": 0.1
-  },
-{
-  "activity": "Solve a Rubik's cube",
-  "type": "recreational",
-  "participants": 1,
-  "price": 0,
-  "link": "",
-  "key": "4151544",
-  "accessibility": 0.1
-  },
-{
-  "activity": "Learn how to make a website",
-  "type": "education",
-  "participants": 1,
-  "price": 0.1,
-  "link": "",
-  "key": "9924423",
-  "accessibility": 0.3
-  },
-{
-  "activity": "Listen to music you haven't heard in a while",
-  "type": "music",
-  "participants": 1,
-  "price": 0.05,
-  "link": "",
-  "key": "4296813",
-  "accessibility": 0.9
-  },
-{
-  "activity": "Take a walk at a local park",
-  "type": "recreational",
-  "participants": 1,
-  "price": 0,
-  "link": "",
-  "key": "8724324",
-  "accessibility": 0.1
-},
-{
-  "activity": "Hold a video game tournament with some friends",
-  "type": "social",
-  "participants": 4,
-  "price": 0,
-  "link": "",
-  "key": "2300257",
-  "accessibility": 0.1
-  },
-{
-  "activity": "Watch a movie you'd never usually watch",
-  "type": "relaxation",
-  "participants": 1,
-  "price": 0.15,
-  "link": "",
-  "key": "9212950",
-  "accessibility": 0.15
-  },
-{
-  "activity": "Sit in the dark and listen to your favorite music with no distractions",
-  "type": "relaxation",
-  "participants": 1,
-  "price": 0,
-  "link": "",
-  "key": "9908721",
-  "accessibility": 1
-  },
-{
-  "activity": "Hold a yard sale",
-  "type": "social",
-  "participants": 1,
-  "price": 0,
-  "link": "",
-  "key": "1432113",
-  "accessibility": 0.1
-  },
-{
-  "activity": "Go to a karaoke bar with some friends",
-  "type": "social",
-  "participants": 4,
-  "price": 0.5,
-  "link": "",
-  "key": "9072906",
-  "accessibility": 0.35
-  },
-{
-  "activity": "Catch up with a friend over a lunch date",
-  "type": "social",
-  "participants": 2,
-  "price": 0.2,
-  "link": "",
-  "key": "5590133",
-  "accessibility": 0.15
-  },
-{
-  "activity": "Make a bucket list",
-  "type": "busywork",
-  "participants": 1,
-  "price": 0,
-  "link": "",
-  "key": "2735499",
-  "accessibility": 0
-  },
-{
-  "activity": "Clean out your car",
-  "type": "busywork",
-  "participants": 1,
-  "price": 0,
-  "link": "",
-  "key": "2896176",
-  "accessibility": 0.08
-  }
-}]
+  "activities": [
+    {
+      "id": 1,
+      "activity": "Learn how to make an Alexa skill",
+      "type": "education",
+      "participants": 1,
+      "image": "https://seaview.cubeapis.com/v1/generate?image=https%3A%2F%2Ftsc-website-production.s3.amazonaws.com%2Fuploads%2F2018%2F05%2Fbest-and-worst-alexa-skills.jpg&width=750&height=422"
+    },
+    {
+      "id": 2,
+      "activity": "Do yoga",
+      "type": "recreational",
+      "participants": 1,
+      "image": "https://post.greatist.com/wp-content/uploads/sites/2/2020/06/GRT-female-yoga-at-home-peaceful-732x549-thumb-732x549.jpg"
+    },
+    {
+      "id": 3,
+      "activity": "Plan a vacation you've always wanted to take",
+      "type": "relaxation",
+      "participants": 1,
+      "image": "https://media.istockphoto.com/id/1176439818/photo/making-a-memory.jpg?s=612x612&w=0&k=20&c=QdOhqkmo-9hxfrspVSA0hDdb2W3qITaJgPKqr3J4anc="
+    },
+    {
+      "id": 4,
+      "activity": "Visit a nearby museum",
+      "type": "recreational",
+      "participants": 1,
+      "image": "https://www.travelandleisure.com/thmb/Om3sth4C6kRWrs2tdci3H0CnuH8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/gallery-uffizi-florence-italy-ONLINEMUSE0320-7c5f3904408c4c8aabd2f15cd6d47a4b.jpg"
+    },
+    {
+      "id": 5,
+      "activity": "Pot some plants and put them around your house",
+      "type": "relaxation",
+      "participants": 1,
+      "image": "https://www.marthastewart.com/thmb/gAos3T-Cx5uxFv5jV0frV7OeWws=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/houseplants-getty-0820-226e798aabf040edb584602e2c5dfd3b.jpg"
+    },
+    {
+      "id": 6,
+      "activity": "Take your dog on a walk",
+      "type": "relaxation",
+      "participants": 1,
+      "image": "https://images.unsplash.com/photo-1599406580992-46ab5d96f296?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZG9nJTIwd2Fsa3xlbnwwfHwwfHw%3D&w=1000&q=80"
+    },
+    {
+      "id": 7,
+      "activity": "Start a daily journal",
+      "type": "relaxation",
+      "participants": 1,
+      "image": "https://www.betterup.com/hubfs/Google%20Drive%20Integration/Delivery%20URL%20-%20BetterUp%20-%20how%20to%20start%20journaling%20%5BARTICLE%5D-1.png"
+    },
+    {
+      "id": 8,
+      "activity": "Learn how to write in shorthand",
+      "type": "education",
+      "participants": 1,
+      "image": "https://t3.ftcdn.net/jpg/00/02/90/48/360_F_2904868_qvnScdnxTmR67dI56cmJy7eIblvis2.jpg"
+    },
+    {
+      "id": 9,
+      "activity": "Do a jigsaw puzzle",
+      "type": "recreational",
+      "participants": 1,
+      "image": "https://images2.minutemediacdn.com/image/upload/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/istock-585079864-b33d5a8d1bcb483eab6e7bd7c7964448.jpg"
+    },
+    {
+      "id": 10,
+      "activity": "Learn how the internet works",
+      "type": "education",
+      "participants": 1,
+      "image": "https://media.istockphoto.com/id/1250195664/photo/smiling-black-girl-with-headset-studying-online-using-laptop.jpg?s=612x612&w=0&k=20&c=Ho0DbSl2P5ELCkVIPyrTniztCwvNrQdJpU3Vzn_0YNk="
+    },
+    {
+      "id": 11,
+      "activity": "Solve a Rubik's cube",
+      "type": "recreational",
+      "participants": 1,
+      "image": "https://images.newscientist.com/wp-content/uploads/2017/06/30133803/pa-30292018.jpg"
+    },
+    {
+      "id": 12,
+      "activity": "Learn how to make a website",
+      "type": "education",
+      "participants": 1,
+      "image": "https://elearningindustry.com/wp-content/uploads/2014/12/shutterstock_168159572.jpg"
+    },
+    {
+      "id": 13,
+      "activity": "Listen to music you haven't heard in a while",
+      "type": "music",
+      "participants": 1,
+      "image": "https://www.betterup.com/hubfs/Woman-listening-to-music-in-headphones-music-relaxation-for-stress.jpg"
+    },
+    {
+      "id": 14,
+      "activity": "Take a walk at a local park",
+      "type": "recreational",
+      "participants": 1,
+      "image": "https://media.istockphoto.com/id/1094475872/photo/mid-aged-woman-running-in-city-park.jpg?s=612x612&w=0&k=20&c=o9ByeRTHcMHtDODMazqF9keULqE_zYW4ZnGOvTGV0nI="
+    },
+    {
+      "id": 15,
+      "activity": "Hold a video game tournament with some friends",
+      "type": "social",
+      "participants": 4,
+      "image": "https://cf.ltkcdn.net/teens/images/orig/318301-2119x1415-friends-playing-video-games.jpg"
+    },
+    {
+      "id": 16,
+      "activity": "Watch a movie you'd never usually watch",
+      "type": "relaxation",
+      "participants": 1,
+      "image": "https://bookclubbabble.com/wp-content/uploads/2021/06/best-strains-high-movie-watching.jpg"
+    },
+    {
+      "id": 17,
+      "activity": "Sit in the dark and listen to your favorite music with no distractions",
+      "type": "relaxation",
+      "participants": 1,
+      "image": "https://img.freepik.com/free-photo/joyful-listening-music-headphones-with-eyes-closed-caucasian-boy-s-portrait-dark-background-neon-light_155003-26106.jpg"
+    },
+    {
+      "id": 18,
+      "activity": "Hold a yard sale",
+      "type": "social",
+      "participants": 1,
+      "image": "https://www.takechargeamerica.org/wp-content/uploads/2019/10/iStock-1044908274.jpg"
+    },
+    {
+      "id": 19,
+      "activity": "Go to a karaoke bar with some friends",
+      "type": "social",
+      "participants": 4,
+      "image": "https://as1.ftcdn.net/v2/jpg/04/58/91/90/1000_F_458919011_MC69RoKVu25xaoFrFi0txEQkZOR6kJD4.jpg"
+    },
+    {
+      "id": 20,
+      "activity": "Catch up with a friend over a lunch date",
+      "type": "social",
+      "participants": 2,
+      "image": "https://i2-prod.mirror.co.uk/incoming/article12390296.ece/ALTERNATES/s615b/Celebration-of-meeting-with-the-best-friends.jpg"
+    },
+    {
+      "id": 21,
+      "activity": "Make a bucket list",
+      "type": "busywork",
+      "participants": 1,
+      "image": "https://cdn.shopify.com/s/files/1/0573/3666/0020/articles/glenn-carstens-peters-RLw-UC03Gwc-unsplash_1920x.jpg?v=1676709300"
+    },
+    {
+      "id": 22,
+      "activity": "Clean out your car",
+      "type": "busywork",
+      "participants": 1,
+      "image": "https://jamiegeller.com/.image/t_share/MTY1NTI0ODU1NDA3NjQ5ODE5/car-vac.jpg"
+    },
+    {
+      "activity": "Eating a plum",
+      "type": "relaxation",
+      "participants": "1",
+      "image": "https://www.wikihow.com/images/thumb/d/d3/Eat-Plums-Step-2.jpg/v4-460px-Eat-Plums-Step-2.jpg.webp",
+      "id": 23
+    },
+    {
+      "activity": "Host a game night",
+      "type": "social",
+      "participants": "4",
+      "image": "https://ppmapartments.com/wp-content/uploads/2018/10/Chicago-apartments-gold-coast-studio-apartments-for-rent.jpg",
+      "id": 24
+    }
+  ]
+}

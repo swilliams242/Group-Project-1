@@ -1,0 +1,116 @@
+/* /* Style for body  */
+body {
+    padding: 1rem;
+    text-align: center;
+    background-color: #fff9f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 54px;
+    margin: 0 0 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+    color: #57110F;
+}
+
+p {
+    font-family: 'Anton', sans-serif;
+    font-size: 24px;
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+#activity-form [type="text"], input[type="submit"] {
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#formLabel {
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center; 
+}
+
+#button {
+    font-family: 'Anton', sans-serif;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: #f2f2f2;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#headerDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    background-color: cream;
+}
+
+form {
+
+    margin-top: 50px;
+} 
+
+#imageDiv {
+    position: relative;
+}
+
+#activity-image {
+    margin: auto;
+    width: 600px;
+}
+
+#activity-detail-name,
+#activity-detail-type,
+#activity-detail-participants {
+    position: absolute;
+    left: 10px;
+    padding: 0.25rem 5rem 0.25rem 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#activity-detail-name {
+    bottom: 90px;
+}
+
+#activity-detail-type {
+    bottom: 60px;
+}
+
+#activity-detail-participants {
+    bottom: 30px;
+}
